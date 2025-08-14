@@ -1,21 +1,21 @@
-# 😷 Face Mask Detection using VGG16
+# Face Mask Detection using VGG16
 
 A deep learning-based face mask detection system built with **VGG16**, fine-tuned on a custom face mask dataset. The model detects whether a person is wearing a mask or not from images or webcam feed in real-time.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Binary classification: `Mask` vs `No Mask`
-- 🧠 VGG16 (pre-trained on ImageNet) + custom top layers
-- 🎥 Real-time face mask detection via webcam (OpenCV)
-- 📸 Inference from static images
-- 📈 High validation accuracy (~95%)
-- 🔄 Data augmentation and preprocessing pipeline
+- Binary classification: `Mask` vs `No Mask`
+- VGG16 (pre-trained on ImageNet) + custom top layers
+- Real-time face mask detection via webcam (OpenCV)
+- Inference from static images
+- High validation accuracy (~95%)
+- Data augmentation and preprocessing pipeline
 
 ---
 
-## 🗃️ Dataset
+## Dataset
 
 - **Main Source**: [Face Mask Dataset by Prajna Bhandary](https://github.com/prajnasb/observations/tree/master/experiements/data)
 - Includes two categories:
@@ -26,7 +26,7 @@ A deep learning-based face mask detection system built with **VGG16**, fine-tune
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - **Base**: VGG16 (`include_top=False`, `weights='imagenet'`)
 - **Added Layers**:
